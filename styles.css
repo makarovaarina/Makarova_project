@@ -1,0 +1,46 @@
+.container{
+  max-width: 1500px;
+  max-height: max-content;
+  margin: 0 auto;
+  }
+  
+  .header{
+  color: #fff;
+  padding: 10px;
+  }
+  body {
+  background-image: url("../i/-background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: right;
+  }
+  
+  .block1, .block2, .block3, .block4 {
+  width: 28cm;
+  height: 8cm;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffedd6;
+  opacity: 80%;
+  margin: 2cm;
+  position: relative;
+  }
+
+  .poster1,.poster2,.poster3,.poster4{
+      width: 2cm;
+      height: 3cm;
+      margin: 1cm 0 0 1cm;
+      background-image:url("../i/poster1.jpg"); 
+      background-size: cover;
+
+  }
+.p_nav_day1,.p_nav_day2,.p_nav_day3,.p_nav_day4,.p_nav_day5,.p_nav_day6{
+      width: 4cm;
+      height: 2cm;
+      background-color: #ffedd6;
+  }
+  .p_nav_day_nav_day_chosen{
+      width: 7cm;
+      height: 2cm;
+      background-color: #e3c7a2;
+  }
